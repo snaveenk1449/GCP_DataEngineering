@@ -15,4 +15,5 @@ if __name__ == '__main__':
 
     input_file = f'/Users/naveensabbarapu/Desktop/CSV_Files'
     output_file = f'/Users/naveensabbarapu/Desktop/Parquet_Files'
+    # Writing output as csv file
     parquet_to_csv(input_file, output_file)
